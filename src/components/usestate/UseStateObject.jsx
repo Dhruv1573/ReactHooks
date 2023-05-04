@@ -8,7 +8,7 @@ const UseStateObject = () => {
     password: "",
     confirm_password: "",
   });
-
+  //useState hooks with multiple object
   const handleInput = (event) => {
     const name = event.target.name;
 
